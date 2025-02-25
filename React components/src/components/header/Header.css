@@ -1,0 +1,53 @@
+
+header {
+    background: rgb(255, 112, 136);
+    background: linear-gradient(90deg, rgba(255, 112, 136, 1) 0%, rgba(255, 112, 136, 1) 25%, rgba(243, 175, 155, 1) 50%, rgba(242, 180, 156, 1) 75%, rgba(242, 182, 157, 1) 100%);
+}
+
+nav ul {
+    display: flex;
+    gap: 5em;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+nav *,
+.feature-container * {
+    color: white;
+}
+nav ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+nav ul li a.active {
+    font-weight: bold;
+    padding-left: 5em;
+    padding-right: 5em;
+    border: 1px solid #fde8e4;
+    border-top: none;
+    border-radius: 0 0 0.3em 0.3em;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.feature-container h1 {
+    font-size: 4em;
+    font-weight: 100;
+}
+.feature-container p {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 1.5em;
+}
+.see-all-cars-btn {
+    display: inline-block;
+    border: 2px solid #f7ccbf;
+    font-size: 2em;
+}

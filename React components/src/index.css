@@ -1,5 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+:root {
+    --lightgrey: #f6f8fb;
+    --grey-btn-border: #d2d6da;
+}
 
 * {
-  margin: 0;
-  padding: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 'Source Sans Pro', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: inherit;
+    min-height: 100dvh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+/* main padding styles */
+header>div,
+.middle-section, 
+footer {
+    padding: 8rem 12rem;
+}
+main .main-content, 
+main .gallery-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+main .images-container, 
+main .articles-container, 
+main .images-container {
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+
+
+
+/**/
+.btn {
+/* border: 1px solid black; */
+    padding: 0.6em 2em;
+    border-radius: 0.3em;
 }
