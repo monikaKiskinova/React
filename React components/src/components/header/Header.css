@@ -7,7 +7,6 @@ header {
 nav ul {
     display: flex;
     gap: 5em;
-    /* justify-content: space-between; */
     justify-content: center;
     padding-top: 1.5rem;
 }
@@ -28,7 +27,7 @@ nav ul li a.active {
     border: 1px solid #fde8e4;
     border-top: none;
     border-radius: 0 0 0.3em 0.3em;
-    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .feature-container {

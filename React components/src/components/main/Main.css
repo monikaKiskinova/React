@@ -1,0 +1,122 @@
+/* main images container styles*/
+.images-container {
+    background: var(--lightgrey);
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.images-container img {
+    width: calc(((100% - 24rem ) - 3em) / 2);
+    height: auto;
+}
+
+
+
+/* main articles container styles*/
+.articles-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+div.article {
+    width: calc(((100% - 24rem ) - 3em) / 2);
+    display: flex;
+    flex-direction: column;
+}
+article {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+.articles-container * {
+    color: #7b7981;
+
+}
+.article p,
+.article .btn {
+    font-size: 18px;
+}
+article h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-bottom: 0.8em;
+}
+article p {
+    opacity: 0.9;
+    font-weight: 300;
+}
+.article .btn {
+    border: 2px solid var(--grey-btn-border);
+    opacity: 0.9; 
+    align-self: center;
+}
+
+
+
+
+/* main middle section styles*/
+.middle-section {
+    background-image: url(./images/promo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+}
+.singin-container {
+    display: flex;
+    gap: 1.5em;
+    flex: 0 0 65%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 3.5em;
+    border: 1px solid var(--grey-btn-border);
+    border-radius: 0.5em; 
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.singin-container p {
+    color: white;
+    font-size: 2.2em;
+    font-weight: 100;
+    font-stretch: expanded;
+}
+.singin-container .btn {
+    border-radius: 0.3em;
+    background-color: white;
+    color: #8e9a98;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+
+
+.gallery-section {
+    text-align: center;
+}
+.gallery-section h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-bottom: 1.5em;
+    color: #64696e;
+}
+.gallery-section .btn {
+    border: 1px solid var(--grey-btn-border);
+    border-radius: 0.3em;
+    color: #64696e;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.gallery-section .images-container {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    border-top-width: 2px;
+}
+.gallery-section .images-container img {
+    width: calc(((100% - 24rem ) - 6em) / 3);
+}
